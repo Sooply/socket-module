@@ -14,6 +14,4 @@ Python, ağ hizmetlerine iki seviyede erişim sağlar. _Düşük seviyede_, teme
 | **type**    | İki uç nokta arasındaki iletişim türü, genellikle bağlantı odaklı protokoller için `SOCK_STREAM` ve bağlantısız protokoller için `SOCK_DGRAM`'dir. | 
 | **protocol**    | Genellikle değeri sıfırdır. Bu, bir etki alanı ve tür içindeki bir protokolün bir varyantını tanımlamak için kullanılabilir. | 
 | **hostname**    | Bir ağ arabiriminin tanımlayıcısı: • Bir host adı, noktalı dörtlü bir adres veya iki noktalı (ve belki de bir noktalı) IPV6 adresi olabilen bir dizedir. • "**<broadcast>**" karakter dizisi, `INADDR_BROADCAST` adresini belirler. • Uzunluğu sıfır olan bir dize, `INADDR_ANY`'yi belirtir, veya ana bilgisayar bayt sırasında ikili adres olarak yorumlanan bir tamsayı olabilir. | 
-| **port**    | x | 
-  
-editlenmeye devam edilecek...
+| **port**    | Her sunucu, bir veya daha fazla bağlantı noktasını arayan istemcileri dinler. Bir bağlantı noktası, Fixnum bağlantı noktası numarası, bir bağlantı noktası numarası içeren bir dize veya bir hizmetin adı olabilir. | 
